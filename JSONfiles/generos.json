@@ -1,0 +1,26 @@
+{
+    "Generos" : [
+        {
+            "Rap" : [
+                {
+                    "Canciones" : [
+                        {
+                            "Medallo Bullies" : "Oblivion's",
+                            "Tren a Vapor" : "Doble Porcion",
+                            "Dando Saltos" : {
+                                "Artista" : "Metricas Frias",
+                                "Duracion" : "3:40",
+                                "Fecha de Lanzamiento" : "15/12/21",
+                                "Album" : "None"
+                            }
+                        }
+                    ],
+                    "Artistas" : ""
+                },
+                {
+
+                }
+            ]
+        }
+    ]
+}
