@@ -15,3 +15,8 @@ principal = "main/txt/main_plantillas/principal.txt"
 
 #Menu ARTISTAS
 m_1 = "txt/main_plantillas/principal.txt"
+m_1_1 = "main/txt/main_plantillas/artistas/1-1.txt"
+m_1_1_1 = "main/txt/main_plantillas/artistas/1-1-1.txt"
+m_1_1_2 = "main/txt/main_plantillas/artistas/1-1-2.txt"
+m_1_1_3 = "main/txt/main_plantillas/artistas/1-1-3.txt"
+m_1_1_4 = "main/txt/main_plantillas/artistas/1-1-4.txt"
