@@ -65,5 +65,5 @@ def Log_In_FaixApp_Record_Company(datos):
                 return
             
         
-    print("La COmpañia DIscografica no esta registrada")
+    print("La Compañia Discografica no esta registrada")
     return
