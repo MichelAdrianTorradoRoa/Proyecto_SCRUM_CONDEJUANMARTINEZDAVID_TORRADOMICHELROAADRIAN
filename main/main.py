@@ -1,7 +1,7 @@
 from importaciones import *
 
 while True:
-    # clear_screen()
+    clear_screen()
     diseño_logo()
     mostrar_txt(principal)
     op = input("Seleccione una opcion:\n👉   ")
@@ -22,7 +22,14 @@ while True:
                     elif op_1_1_1 == "3":
                         print ("crear_sencillo")
                     elif op_1_1_1 == "4":
-                        print ("crear_info")
+                        mostrar_txt(m_info)
+                        op_info = input("Seleccione una opcion:\n👉   ")
+                        if op_info == "1":
+                            print ("crear_descripcion")
+                        elif op_info == "2":
+                            print ("crear_info_contacto")
+                        elif op_info == "3": break
+                        else: print ("opcion no valida")
                     elif op_1_1_1 == "5": break
                     else: print ("opcion no valida")
             elif op_1_1 == "2": 
@@ -36,7 +43,14 @@ while True:
                     elif op_1_1_1 == "3":
                         print ("eliminar_sencillo")
                     elif op_1_1_1 == "4":
-                        print ("eliminar_info")
+                        mostrar_txt(m_info)
+                        op_info = input("Seleccione una opcion:\n👉   ")
+                        if op_info == "1":
+                            print ("eliminar_descripcion")
+                        elif op_info == "2":
+                            print ("eliminar_info_contacto")
+                        elif op_info == "3": break
+                        else: print ("opcion no valida")
                     elif op_1_1_1 == "5": break
                     else: print ("opcion no valida")
             elif op_1_1 == "3":
@@ -50,6 +64,14 @@ while True:
                     elif op_1_1_1 == "3":
                         print ("actualizar_sencillo")
                     elif op_1_1_1 == "4":
+                        mostrar_txt(m_info)
+                        op_info = input("Seleccione una opcion:\n👉   ")
+                        if op_info == "1":
+                            print ("actualizar_descripcion")
+                        elif op_info == "2":
+                            print ("actualizar_info_contacto")
+                        elif op_info == "3": break
+                        else: print ("opcion no valida")
                         print ("actualizar_info")
                     elif op_1_1_1 == "5": break
                     else: print ("opcion no valida")
@@ -64,7 +86,15 @@ while True:
                     elif op_1_1_1 == "3":
                         print ("leer_sencillos")
                     elif op_1_1_1 == "4":
-                        print ("leer_info")
+                        mostrar_txt(m_info_leer)
+                        op_info = input("Seleccione una opcion:\n👉   ")
+                        if op_info == "1":
+                            print ("leer_descripcion")
+                        elif op_info == "2":
+                            print ("leer_info_contacto")
+                        elif op_info == "3":
+                            print ("leer_contrato")
+                        elif op_info == "4": break
                     elif op_1_1_1 == "5": break
                     else: print ("opcion no valida")
             elif op_1_1 == "5": break
