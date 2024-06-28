@@ -31,4 +31,4 @@ m_1_2_3 = "main/txt/main_plantillas/discografia/1-2-3.txt"
 
 #Login 
 m_login_a = "main/txt/main_plantillas/login/login_artistas.txt"
-m_login_d = "main/txt/main_plantillas/login/login_discografica.txt"
+m_login_d = "main/txt/main_plantillas/login/login_discograficas.txt"
