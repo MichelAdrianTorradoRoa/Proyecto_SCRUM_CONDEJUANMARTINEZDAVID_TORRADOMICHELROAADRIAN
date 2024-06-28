@@ -1,0 +1,23 @@
+{
+    "D_Artista": [
+        {
+            "Correo": "josedavidtarazonadiaz@gmail.com",
+            "Contrasena ": "123584l"
+        },
+        {
+            "Correo": "juan5franTtierra@gmail.com",
+            "Contrasena": "12lo12lo1"
+        }
+    ],
+    "D_Discografica": [
+        {
+            "Correo": "contacto@harmonicsoundwavesrecords.com",
+            "Contrasena ": "logiv5847"
+        },
+        {
+            "Correo": "contact@serenitysoundsrecords.com",
+            "Contrasena": "kictejds85"
+        }
+    ]
+    
+}

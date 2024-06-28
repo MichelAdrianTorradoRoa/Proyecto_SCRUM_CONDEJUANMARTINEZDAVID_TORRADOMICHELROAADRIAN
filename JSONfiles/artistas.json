@@ -1,0 +1,41 @@
+{
+    "Artista" :[
+        {
+            "nombre" : "",
+            "genero" : "",
+            "canciones" : [
+                "cancion1",
+                "cancion2",
+                "cancion3"
+            ],
+            "descripcion" : "",
+            "contacto" : "",
+            "contratos" : ""
+        }
+    ]
+}
+
+"canciones" : {
+    "Medallo Bullies" : {
+        "Artista" : "1",
+        "Genero" : "Rock",
+        "Duracion" : "4:20",
+        "Lanzamiento" : "1992-12-12",
+        "Comentarios" : "Comentario1",
+        "Album" : "Album"
+    },
+    "Canciones2" : {
+        "Artista" : "2",
+        "Genero" : "Urbano",
+        "Duracion" : "3:45",
+        "Lanzamiento" : "2000-01-01",
+        "Comentarios" : "Comentario2"
+    },
+    "cancion3" : {
+        "Artista" : "3",
+        "Genero" : "Electronica",
+        "Duracion" : "5:00",
+        "Lanzamiento" : "201-12-12",
+        "Comentarios" : "Comentario3"
+    }
+}

@@ -1,26 +1,90 @@
 {
-    "Generos" : [
-        {
-            "Rap" : [
-                {
-                    "Canciones" : [
-                        {
-                            "Medallo Bullies" : "Oblivion's",
-                            "Tren a Vapor" : "Doble Porcion",
-                            "Dando Saltos" : {
-                                "Artista" : "Metricas Frias",
-                                "Duracion" : "3:40",
-                                "Fecha de Lanzamiento" : "15/12/21",
-                                "Album" : "None"
-                            }
-                        }
-                    ],
-                    "Artistas" : ""
-                },
-                {
-
-                }
-            ]
-        }
-    ]
+    "Rap" : {
+        "Artistas" : [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "Canciones" : [
+            "Medallo Bullies",
+            "Canciones2",
+            "cancion3",
+            "cancion4"
+        ],
+        "Albums" : [
+            "Album1",
+            "Album2",
+            "Album3",
+            "Album4",
+            "Album5"
+        ]
+    },
+    "Rock": {
+        "Artistas" : [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "Canciones" : [
+            "Medallo Bullies",
+            "Canciones2",
+            "cancion3",
+            "cancion4"
+        ],
+        "Albums" : [
+            "Album1",
+            "Album2",
+            "Album3",
+            "Album4",
+            "Album5"
+        ]
+    },
+    "Urbano" : {
+        "Artistas" : [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "Canciones" : [
+            "Medallo Bullies",
+            "Canciones2",
+            "cancion3",
+            "cancion4"
+        ],
+        "Albums" : [
+            "Album1",
+            "Album2",
+            "Album3",
+            "Album4",
+            "Album5"
+        ]
+    },
+    "Electronica" : {
+        "Artistas" : [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "Canciones" : [
+            "Medallo Bullies",
+            "Canciones2",
+            "cancion3",
+            "cancion4"
+        ],
+        "Albums" : [
+            "Album1",
+            "Album2",
+            "Album3",
+            "Album4",
+            "Album5"
+        ]
+    }
 }

@@ -1,4 +1,4 @@
-from secundary_funciones import *
+﻿from secundary_funciones import *
 
 def diseño_logo():
     linen()
