@@ -60,5 +60,9 @@ def Log_In_FaixApp_Record_Company(datos):
         if Datos_Discografica["Correo"] == Correo:
             while Datos_Discografica["Contrasena"] != ContrasenaR_R:
                 print("Contrasena Incorrecta")
-                ContrasenaR_R = input("")
-
+                ContrasenaR_R = input("Ingrese su Contrasena: ")
+            else:
+                return
+            
+        
+    print(E)
