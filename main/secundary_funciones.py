@@ -32,7 +32,19 @@ def opcion_no_valida():
         f.write(mensaje_error + '\n')
 #opcion_no_valida()
 
-        
+def very():
+    while True:
+        linen()
+        print_("¿Repetir operacion?")
+        print_("1 .Si")
+        print_("2 .No")
+        continuar = input("                     >>>")
+        linen()
+        if continuar == "1": return "1"
+        elif continuar == "2": 
+            clear_screen()
+            return "2"
+        else: opcion_no_valida()
 
 
 def print_(*args, **kwargs):

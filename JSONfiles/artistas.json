@@ -1,27 +1,57 @@
 {
-
-"canciones" : {
-    "Medallo Bullies" : {
-        "Artista" : "1",
-        "Genero" : "Rock",
-        "Duracion" : "4:20",
-        "Lanzamiento" : "1992-12-12",
-        "Comentarios" : "Comentario1",
-        "Album" : "Album"
-    },
-    "Canciones2" : {
-        "Artista" : "2",
-        "Genero" : "Urbano",
-        "Duracion" : "3:45",
-        "Lanzamiento" : "2000-01-01",
-        "Comentarios" : "Comentario2"
-    },
-    "cancion3" : {
-        "Artista" : "3",
-        "Genero" : "Electronica",
-        "Duracion" : "5:00",
-        "Lanzamiento" : "201-12-12",
-        "Comentarios" : "Comentario3"
-    }
-} 
+    "canciones": [
+        {
+            "nombre": "We are rock you",
+            "artista": "Queen",
+            "genero": "Rock",
+            "duracion": "4:20",
+            "lanzamiento": "1992-12-12",
+            "album": "Album",
+            "genero_id": "01",
+            "artista_id": "001"
+        },
+        {
+            "nombre": "We are rock you",
+            "artista": "Queen",
+            "genero": "Rock",
+            "duracion": "4:20",
+            "lanzamiento": "1992-12-12",
+            "album": "Album",
+            "genero_id": "01",
+            "artista_id": "001"
+        },
+        {
+            "nombre": "We are rock you",
+            "artista": "Queen",
+            "genero": "Rock",
+            "duracion": "4:20",
+            "lanzamiento": "1992-12-12",
+            "album": "Album",
+            "genero_id": "01",
+            "artista_id": "001"
+        },
+        {
+            "nombre": "conde",
+            "artista": "Kiki",
+            "genero": "Pop",
+            "genero_id": "02",
+            "duracion": "2min",
+            "lanzamiento": "23 de agosto",
+            "album": "KIKI",
+            "artista_id": "11"
+        }
+    ],
+    "artistas": [
+        {
+            "nombre": "pepe",
+            "descripcion": "",
+            "contacto": "",
+            "contratos": "",
+            "canciones": [
+                "We are rock you",
+                "Another one bites the dust",
+                "Bohemian Rhapsody"
+            ]
+        }
+    ]
 }
