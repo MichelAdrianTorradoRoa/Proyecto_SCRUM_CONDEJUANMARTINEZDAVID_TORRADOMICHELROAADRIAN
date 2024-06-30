@@ -39,6 +39,16 @@
             "lanzamiento": "2 de november",
             "album": "coca",
             "artista_id": "11"
+        },
+        {
+            "nombre": "waanna",
+            "artista": "asd",
+            "genero": "Urbana",
+            "genero_id": "03",
+            "duracion": "2min",
+            "lanzamiento": "234456",
+            "album": "fe",
+            "artista_id": "13"
         }
     ],
     "artistas": [

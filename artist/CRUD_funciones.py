@@ -1,4 +1,4 @@
-from funciones_secundarias import print_
+from artist.funciones_secundarias import print_
 import csv
 
 def genero_canciones(canciones):    

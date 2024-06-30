@@ -1,6 +1,6 @@
-from datos import *
-from funciones_secundarias import very,clear_screen, print_, es, linen,linea,line
-from CRUD_funciones import contador_id
+from artist.datos import *
+from artist.funciones_secundarias import very,clear_screen, print_, es, linen,linea,line
+from artist.CRUD_funciones import contador_id
 #CREAR
 
 def crear_song(datos: dict):

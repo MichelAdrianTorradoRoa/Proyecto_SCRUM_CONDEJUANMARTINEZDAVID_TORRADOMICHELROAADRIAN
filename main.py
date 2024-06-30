@@ -22,11 +22,8 @@ while True:
                             mostrar_txt(m_1_1_1)
                             op_1_1_1 = input("Seleccione una opcion:\n👉   ")
                             line()
-                            if op_1_1_1 == "1":
-                                print ("crear_album")
+                            if op_1_1_1 == "1":crear_cancion()
                             elif op_1_1_1 == "2":
-                                print ("crear_cancion")
-                            elif op_1_1_1 == "3":
                                 while True:
                                     mostrar_txt(m_info)
                                     op_info = input("Seleccione una opcion:\n👉   ")
@@ -37,18 +34,15 @@ while True:
                                         print ("crear_info_contacto")
                                     elif op_info == "3": break
                                     else: print ("opcion no valida")
-                            elif op_1_1_1 == "4": break
+                            elif op_1_1_1 == "3": break
                             else: print ("opcion no valida")
                     elif op_1_1 == "2": 
                         while True:
                             mostrar_txt(m_1_1_2)
                             op_1_1_1 = input("Seleccione una opcion:\n👉   ")
                             line()
-                            if op_1_1_1 == "1":
-                                print ("eliminar_album")
+                            if op_1_1_1 == "1": eliminar_cancion()
                             elif op_1_1_1 == "2":
-                                print ("eliminar_cancion")
-                            elif op_1_1_1 == "3":
                                 while True:
                                     mostrar_txt(m_info)
                                     op_info = input("Seleccione una opcion:\n👉   ")
@@ -59,18 +53,15 @@ while True:
                                         print ("eliminar_info_contacto")
                                     elif op_info == "3": break
                                     else: print ("opcion no valida")
-                            elif op_1_1_1 == "4": break
+                            elif op_1_1_1 == "3": break
                             else: print ("opcion no valida")
                     elif op_1_1 == "3":
                         while True:
                             mostrar_txt(m_1_1_3)
                             op_1_1_1 = input("Seleccione una opcion:\n👉   ")
                             line()
-                            if op_1_1_1 == "1":
-                                print ("actualiza_album")
+                            if op_1_1_1 == "1": actualizar_cancion()
                             elif op_1_1_1 == "2":
-                                print ("actualizar_cancion")
-                            elif op_1_1_1 == "3":
                                 while True:
                                     mostrar_txt(m_info)
                                     op_info = input("Seleccione una opcion:\n👉   ")
@@ -81,18 +72,15 @@ while True:
                                         print ("actualizar_info_contacto")
                                     elif op_info == "3": break
                                     else: print ("opcion no valida")
-                            elif op_1_1_1 == "4": break
+                            elif op_1_1_1 == "3": break
                             else: print ("opcion no valida")
                     elif op_1_1 == "4": 
                         while True:
                             mostrar_txt(m_1_1_4)
                             op_1_1_1 = input("Seleccione una opcion:\n👉   ")
                             line()
-                            if op_1_1_1 == "1":
-                                print ("leer_albunes")
+                            if op_1_1_1 == "1": leer_cancion()
                             elif op_1_1_1 == "2":
-                                print ("leer_canciones")
-                            elif op_1_1_1 == "3":
                                 while True:
                                     mostrar_txt(m_info_leer)
                                     op_info = input("Seleccione una opcion:\n👉   ")
@@ -105,7 +93,7 @@ while True:
                                         print ("leer_contrato")
                                     elif op_info == "4": break
                                     else: print ("opcion no valida")
-                            elif op_1_1_1 == "4": break
+                            elif op_1_1_1 == "3": break
                             else: print ("opcion no valida")
                     elif op_1_1 == "5": break
                     else: print ("opcion no valida")
