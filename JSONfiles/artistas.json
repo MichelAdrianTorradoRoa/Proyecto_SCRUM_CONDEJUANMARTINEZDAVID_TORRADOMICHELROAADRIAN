@@ -1,19 +1,4 @@
 {
-    "Artista" :[
-        {
-            "nombre" : "",
-            "genero" : "",
-            "canciones" : [
-                "cancion1",
-                "cancion2",
-                "cancion3"
-            ],
-            "descripcion" : "",
-            "contacto" : "",
-            "contratos" : ""
-        }
-    ]
-}
 
 "canciones" : {
     "Medallo Bullies" : {
@@ -38,4 +23,5 @@
         "Lanzamiento" : "201-12-12",
         "Comentarios" : "Comentario3"
     }
+} 
 }
