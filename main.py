@@ -28,11 +28,8 @@ while True:
                                     mostrar_txt(m_info)
                                     op_info = input("Seleccione una opcion:\n👉   ")
                                     line()
-                                    if op_info == "1":
-                                        print ("crear_descripcion")
-                                    elif op_info == "2":
-                                        print ("crear_info_contacto")
-                                    elif op_info == "3": break
+                                    if op_info == "1": crear_info()
+                                    elif op_info == "2": break
                                     else: print ("opcion no valida")
                             elif op_1_1_1 == "3": break
                             else: print ("opcion no valida")
@@ -47,11 +44,8 @@ while True:
                                     mostrar_txt(m_info)
                                     op_info = input("Seleccione una opcion:\n👉   ")
                                     line()
-                                    if op_info == "1":
-                                        print ("eliminar_descripcion")
-                                    elif op_info == "2":
-                                        print ("eliminar_info_contacto")
-                                    elif op_info == "3": break
+                                    if op_info == "1": eliminar_info()
+                                    elif op_info == "2": break
                                     else: print ("opcion no valida")
                             elif op_1_1_1 == "3": break
                             else: print ("opcion no valida")
@@ -66,11 +60,8 @@ while True:
                                     mostrar_txt(m_info)
                                     op_info = input("Seleccione una opcion:\n👉   ")
                                     line()
-                                    if op_info == "1":
-                                        print ("actualizar_descripcion")
-                                    elif op_info == "2":
-                                        print ("actualizar_info_contacto")
-                                    elif op_info == "3": break
+                                    if op_info == "1": actualizar_info()
+                                    elif op_info == "2": break
                                     else: print ("opcion no valida")
                             elif op_1_1_1 == "3": break
                             else: print ("opcion no valida")
@@ -85,13 +76,8 @@ while True:
                                     mostrar_txt(m_info_leer)
                                     op_info = input("Seleccione una opcion:\n👉   ")
                                     line()
-                                    if op_info == "1":
-                                        print ("leer_descripcion")
-                                    elif op_info == "2":
-                                        print ("leer_info_contacto")
-                                    elif op_info == "3":
-                                        print ("leer_contrato")
-                                    elif op_info == "4": break
+                                    if op_info == "1": leer_info()
+                                    elif op_info == "2": break
                                     else: print ("opcion no valida")
                             elif op_1_1_1 == "3": break
                             else: print ("opcion no valida")

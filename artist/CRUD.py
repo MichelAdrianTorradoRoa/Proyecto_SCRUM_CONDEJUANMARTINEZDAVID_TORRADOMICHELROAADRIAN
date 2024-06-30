@@ -60,7 +60,7 @@ def eliminar_song(datos: dict):
             datos["canciones"].pop(i)
             separador = " "
             song = separador.join(map(str, song))
-            print(song,"eliminada con exito...")
+            print(song," ha sido eliminada con exito...")
             return datos
     print (f"La cancion ",nombre," no existe...")    
     return datos

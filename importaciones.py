@@ -5,5 +5,6 @@ from txt import *
 #CRUD Artistas
 # from artist.CRUD import *
 from artist.CRUD import *
+from artist.CRUD_info import *
 
 

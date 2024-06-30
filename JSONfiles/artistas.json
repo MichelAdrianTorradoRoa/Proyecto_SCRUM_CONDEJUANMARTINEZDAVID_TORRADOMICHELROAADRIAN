@@ -49,19 +49,53 @@
             "lanzamiento": "234456",
             "album": "fe",
             "artista_id": "13"
+        },
+        {
+            "nombre": "hello",
+            "artista": "adele",
+            "genero": "Pop",
+            "genero_id": "02",
+            "duracion": "3min",
+            "lanzamiento": "34-45-56",
+            "album": "jirafa",
+            "artista_id": "15"
+        },
+        {
+            "nombre": "ere",
+            "artista": "adele",
+            "genero": "Urbana",
+            "genero_id": "03",
+            "duracion": "fr",
+            "lanzamiento": "r",
+            "album": "r",
+            "artista_id": "16"
+        },
+        {
+            "nombre": "11",
+            "artista": "1",
+            "genero": "Rock",
+            "genero_id": "01",
+            "duracion": "11",
+            "lanzamiento": "1",
+            "album": "11",
+            "artista_id": "17"
         }
     ],
     "artistas": [
         {
-            "nombre": "pepe",
-            "descripcion": "",
-            "contacto": "",
-            "contratos": "",
-            "canciones": [
-                "We are rock you",
-                "Another one bites the dust",
-                "Bohemian Rhapsody"
-            ]
+            "nombre": "perex",
+            "descripcion": "hola conde",
+            "contacto": "kkkkk@gmail.com"
+        },
+        {
+            "nombre": "hakuna",
+            "descripcion": "es un top de nuevo mundo",
+            "contacto": "guuue"
+        },
+        {
+            "nombre": "adele",
+            "descripcion": "es una cantante de musica",
+            "contacto": "adele@gmail.com"
         }
     ]
 }
