@@ -54,3 +54,14 @@ def contador_id():
     return id_artista
 
 # print (contador_id())
+
+def modificar(datos):    
+    while True:
+        op = input("Ingrese una opcion:\n    0. Salir \n    1. Nombre\n    2. Artista\n    3. Genero\n    4. Duracion\n    5. Lanzamiento\n    6. Album\n\n>>  ")
+        if op == "1": 
+            name =  datos["canciones"][i]["nombre"]
+            datos["canciones"][i]["nombre"]=input("Ingrese el nuevo nombre de la cancion: ").lower()
+            print_(f"La cancion ",name," ha sido cambiada a ", datos["canciones"][i]["nombre"]," con éxito!")
+            return datos
+        elif op == "0": return datos        
+        else: print_("Opcion no valida")

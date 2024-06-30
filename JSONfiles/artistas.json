@@ -21,7 +21,7 @@
             "artista_id": "001"
         },
         {
-            "nombre": "We are rock you",
+            "nombre": "we are rock you",
             "artista": "Queen",
             "genero": "Rock",
             "duracion": "4:20",
@@ -32,12 +32,12 @@
         },
         {
             "nombre": "conde",
-            "artista": "Kiki",
-            "genero": "Pop",
-            "genero_id": "02",
-            "duracion": "2min",
-            "lanzamiento": "23 de agosto",
-            "album": "KIKI",
+            "artista": "haha",
+            "genero": "Electronica",
+            "genero_id": "04",
+            "duracion": "3min",
+            "lanzamiento": "2 de november",
+            "album": "coca",
             "artista_id": "11"
         }
     ],
