@@ -12,7 +12,7 @@ while True:
             op_login = input("Seleccione una opcion:\n👉   ")
             line()
             if op_login == "1":
-                print("login")
+                Log_In_FaixApp_Artists(datos)
                 while True:
                     mostrar_txt(m_1_1)
                     op_1_1 = input("Seleccione una opcion:\n👉   ")
@@ -94,7 +94,7 @@ while True:
             op_login = input("Seleccione una opcion:\n👉   ")
             line()
             if op_login == "1":
-                print("login")
+                Log_In_FaixApp_Record_Company(datos)
                 while True:
                     mostrar_txt(m_1_2)
                     op_1_2 = input("Seleccione una opcion:\n👉   ")
@@ -136,7 +136,21 @@ while True:
                     elif op_1_2 == "4": break
                     else: print ("opcion no valida")
             elif op_login == "2":
-                print("registrarse")
+                while True:
+                    print("Como vas a Registrarte")
+                    print("1. Como Artista")
+                    print("2. Como Discografica")
+                    print("3. para salir")
+                    Op = pedir_Opc()
+                    if Op == 1:
+                        Sign_Up_FaixApp_Artist(datos, BASE_DE_DATOS)
+                    elif Op == 2:
+                        Sign_Up_FaixApp_Record_Company(datos, BASE_DE_DATOS)
+                    elif Op == 3:
+                        print("Salida Exitosa")
+                        break
+                    else:
+                        print("Opcion no valida")
             elif op_login == "3": break
             else: print ("opcion no valida")
     elif op == "3":
