@@ -24,7 +24,7 @@ def guardar_datos(archivo, datos):
 def pedir_Opc():
     while True:
         try:
-            Opc = int(input("Ingrese la opción: "))
+            Opc = int(input("Seleccione una opción:\n👉    "))
             return Opc
         except ValueError:
             print("-/-/-/-/-/-/-/-/-/-/-/-/-/")
