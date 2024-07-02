@@ -49,6 +49,16 @@
             "lanzamiento": "1979",
             "album": "dynasty",
             "artista_id": "18"
+        },
+        {
+            "nombre": "bailame despacio",
+            "artista": "zion y lenox",
+            "genero": "Urbana",
+            "genero_id": "03",
+            "duracion": "3min\u00e7",
+            "lanzamiento": "3 de febrero 2015",
+            "album": "album",
+            "artista_id": "19"
         }
     ],
     "artistas": [
