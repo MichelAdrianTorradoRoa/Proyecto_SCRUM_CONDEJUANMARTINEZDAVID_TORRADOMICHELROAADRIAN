@@ -1,28 +1,8 @@
 {
     "canciones": [
         {
-            "nombre": "We are rock you",
-            "artista": "Queen",
-            "genero": "Rock",
-            "duracion": "4:20",
-            "lanzamiento": "1992-12-12",
-            "album": "Album",
-            "genero_id": "01",
-            "artista_id": "001"
-        },
-        {
-            "nombre": "We are rock you",
-            "artista": "Queen",
-            "genero": "Rock",
-            "duracion": "4:20",
-            "lanzamiento": "1992-12-12",
-            "album": "Album",
-            "genero_id": "01",
-            "artista_id": "001"
-        },
-        {
             "nombre": "we are rock you",
-            "artista": "Queen",
+            "artista": "queen",
             "genero": "Rock",
             "duracion": "4:20",
             "lanzamiento": "1992-12-12",

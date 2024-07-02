@@ -1,6 +1,7 @@
 from artist.datos import *
 from artist.funciones_secundarias import very,clear_screen, print_, es, linen,linea,line
 from artist.CRUD_funciones import contador_id
+from txt import *
 #CREAR
 
 def crear_informacion(datos: dict):
@@ -89,6 +90,283 @@ def leer_info():
     while True:
         datos = cargar_datos(RUTA_BASE_DE_DATOS_ARTISTAS)
         datos = leer_informacion(datos)
+        guardar_datos(datos, RUTA_BASE_DE_DATOS_ARTISTAS)
+        continuar = very()
+        if continuar == "2": break
+        else: clear_screen()
+        
+def leer_artist(datos: dict):
+    print_("A r t i s t a s")
+    for sn in range(len(datos["artistas"])):
+        print_(datos["artistas"][sn]["nombre"].capitalize())
+    for i in range(len(datos["artistas"])):
+        linea()
+        es()
+        line()
+        print_("N o m b r e")
+        print_(datos["artistas"][i]["nombre"].capitalize())
+        line()
+        es()
+        line()
+        print_("D e s c r i p c i o n")
+        print_(datos["artistas"][i]["descripcion"].capitalize())
+        line()
+        es()
+        line()
+        print_("C o n t a c t o")
+        print_(datos["artistas"][i]["contacto"])
+        line()
+        es()
+        line()
+        print_("C a n c i o n e s")
+        for p in range(len(datos["canciones"])):
+            if datos["artistas"][i]["nombre"] == datos["canciones"][p]["artista"]:
+                print_ (datos["canciones"][p]["nombre"])
+        line()
+        es()
+        linea()
+    return datos
+def leer_artistas():
+    while True:
+        datos = cargar_datos(RUTA_BASE_DE_DATOS_ARTISTAS)
+        datos = leer_artist(datos)
+        guardar_datos(datos, RUTA_BASE_DE_DATOS_ARTISTAS)
+        continuar = very()
+        if continuar == "2": break
+        else: clear_screen()
+        
+def leer_gender(datos: dict):  
+    while True:
+        mostrar_txt(m_1_2_1)
+        op = input("Seleccione una opcion:\n👉   ")
+        line()
+        if op == "1": 
+            print_("C a n c i o n e s")
+            for sn in range(len(datos["canciones"])):
+                if datos["canciones"][sn]["genero_id"] == "01":
+                    print_ (datos["canciones"][sn]["nombre"])
+            for i in range(len(datos["canciones"])):
+                if datos["canciones"][i]["genero_id"] == "01":
+                    line()
+                    es()
+                    linea()
+                    linea()
+                    es()
+                    line()
+                    print_("N o m b r e")
+                    print_(datos["canciones"][i]["nombre"].capitalize())
+                    line()
+                    es()
+                    line()
+                    print_("A r t i s t a")
+                    print_(datos["canciones"][i]["artista"].capitalize())
+                    line()
+                    es()
+                    line()
+                    print_("G e n e r o")
+                    print_(datos["canciones"][i]["genero"])
+                    line()
+                    es()
+                    line()
+                    print_("D u r a c i o n")
+                    print_(datos["canciones"][i]["duracion"])
+                    line()
+                    es()
+                    line()
+                    print_("L a n z a m i e n t o")
+                    print_(datos["canciones"][i]["lanzamiento"])
+                    line()
+                    es()
+                    line()
+                    print_("A l b u m")
+                    print_(datos["canciones"][i]["album"].capitalize())
+                    line()
+                    es()
+                    linea()
+            return datos 
+        elif op == "2":
+            print_("C a n c i o n e s")
+            for sn in range(len(datos["canciones"])):
+                if datos["canciones"][sn]["genero_id"] == "02":
+                    print_ (datos["canciones"][sn]["nombre"])
+            for i in range(len(datos["canciones"])):
+                if datos["canciones"][i]["genero_id"] == "02":
+                    line()
+                    es()
+                    linea()
+                    linea()
+                    es()
+                    line()
+                    print_("N o m b r e")
+                    print_(datos["canciones"][i]["nombre"].capitalize())
+                    line()
+                    es()
+                    line()
+                    print_("A r t i s t a")
+                    print_(datos["canciones"][i]["artista"].capitalize())
+                    line()
+                    es()
+                    line()
+                    print_("G e n e r o")
+                    print_(datos["canciones"][i]["genero"])
+                    line()
+                    es()
+                    line()
+                    print_("D u r a c i o n")
+                    print_(datos["canciones"][i]["duracion"])
+                    line()
+                    es()
+                    line()
+                    print_("L a n z a m i e n t o")
+                    print_(datos["canciones"][i]["lanzamiento"])
+                    line()
+                    es()
+                    line()
+                    print_("A l b u m")
+                    print_(datos["canciones"][i]["album"].capitalize())
+                    line()
+                    es()
+                    linea()
+            return datos 
+        elif op == "3":
+            print_("C a n c i o n e s")
+            for sn in range(len(datos["canciones"])):
+                if datos["canciones"][sn]["genero_id"] == "03":
+                    print_ (datos["canciones"][sn]["nombre"])
+            for i in range(len(datos["canciones"])):
+                if datos["canciones"][i]["genero_id"] == "03":
+                    line()
+                    es()
+                    linea()
+                    linea()
+                    es()
+                    line()
+                    print_("N o m b r e")
+                    print_(datos["canciones"][i]["nombre"].capitalize())
+                    line()
+                    es()
+                    line()
+                    print_("A r t i s t a")
+                    print_(datos["canciones"][i]["artista"].capitalize())
+                    line()
+                    es()
+                    line()
+                    print_("G e n e r o")
+                    print_(datos["canciones"][i]["genero"])
+                    line()
+                    es()
+                    line()
+                    print_("D u r a c i o n")
+                    print_(datos["canciones"][i]["duracion"])
+                    line()
+                    es()
+                    line()
+                    print_("L a n z a m i e n t o")
+                    print_(datos["canciones"][i]["lanzamiento"])
+                    line()
+                    es()
+                    line()
+                    print_("A l b u m")
+                    print_(datos["canciones"][i]["album"].capitalize())
+                    line()
+                    es()
+                    linea()
+            return datos 
+        elif op == "4":
+            print_("C a n c i o n e s")
+            for sn in range(len(datos["canciones"])):
+                if datos["canciones"][sn]["genero_id"] == "04":
+                    print_ (datos["canciones"][sn]["nombre"])
+            for i in range(len(datos["canciones"])):
+                if datos["canciones"][i]["genero_id"] == "04":
+                    line()
+                    es()
+                    linea()
+                    linea()
+                    es()
+                    line()
+                    print_("N o m b r e")
+                    print_(datos["canciones"][i]["nombre"].capitalize())
+                    line()
+                    es()
+                    line()
+                    print_("A r t i s t a")
+                    print_(datos["canciones"][i]["artista"].capitalize())
+                    line()
+                    es()
+                    line()
+                    print_("G e n e r o")
+                    print_(datos["canciones"][i]["genero"])
+                    line()
+                    es()
+                    line()
+                    print_("D u r a c i o n")
+                    print_(datos["canciones"][i]["duracion"])
+                    line()
+                    es()
+                    line()
+                    print_("L a n z a m i e n t o")
+                    print_(datos["canciones"][i]["lanzamiento"])
+                    line()
+                    es()
+                    line()
+                    print_("A l b u m")
+                    print_(datos["canciones"][i]["album"].capitalize())
+                    line()
+                    es()
+                    linea()
+            return datos 
+        elif op == "5":
+            print_("C a n c i o n e s")
+            for sn in range(len(datos["canciones"])):
+                if datos["canciones"][sn]["genero_id"] == "05":
+                    print_ (datos["canciones"][sn]["nombre"])
+            for i in range(len(datos["canciones"])):
+                if datos["canciones"][i]["genero_id"] == "05":
+                    line()
+                    es()
+                    linea()
+                    linea()
+                    es()
+                    line()
+                    print_("N o m b r e")
+                    print_(datos["canciones"][i]["nombre"].capitalize())
+                    line()
+                    es()
+                    line()
+                    print_("A r t i s t a")
+                    print_(datos["canciones"][i]["artista"].capitalize())
+                    line()
+                    es()
+                    line()
+                    print_("G e n e r o")
+                    print_(datos["canciones"][i]["genero"])
+                    line()
+                    es()
+                    line()
+                    print_("D u r a c i o n")
+                    print_(datos["canciones"][i]["duracion"])
+                    line()
+                    es()
+                    line()
+                    print_("L a n z a m i e n t o")
+                    print_(datos["canciones"][i]["lanzamiento"])
+                    line()
+                    es()
+                    line()
+                    print_("A l b u m")
+                    print_(datos["canciones"][i]["album"].capitalize())
+                    line()
+                    es()
+                    linea()
+            return datos 
+        elif op == "6": return datos
+        else: print_("El genero no es valido")
+
+def leer_genero():
+    while True:
+        datos = cargar_datos(RUTA_BASE_DE_DATOS_ARTISTAS)
+        datos = leer_gender(datos)
         guardar_datos(datos, RUTA_BASE_DE_DATOS_ARTISTAS)
         continuar = very()
         if continuar == "2": break

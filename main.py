@@ -12,7 +12,7 @@ while True:
             op_login = input("Seleccione una opcion:\n👉   ")
             line()
             if op_login == "1":
-                Log_In_FaixApp_Artists(datos)
+                Log_In_FaixApp_Artists()
                 while True:
                     mostrar_txt(m_1_1)
                     op_1_1 = input("Seleccione una opcion:\n👉   ")
@@ -83,77 +83,30 @@ while True:
                             else: print ("opcion no valida")
                     elif op_1_1 == "5": break
                     else: print ("opcion no valida")
-            elif op_login == "2":
-                print("registrar")
+            elif op_login == "2": Sign_Up_FaixApp_Artist()
             elif op_login == "3": break
             else: print ("opcion no valida")
-    elif op == "2": 
-        print ("Discografia")
+    elif op == "2":
         while True:
             mostrar_txt(m_login_d)
             op_login = input("Seleccione una opcion:\n👉   ")
             line()
             if op_login == "1":
-                Log_In_FaixApp_Record_Company(datos)
+                Log_In_FaixApp_Artists()
                 while True:
                     mostrar_txt(m_1_2)
                     op_1_2 = input("Seleccione una opcion:\n👉   ")
                     line()
-                    if op_1_2 == "1":
-                        while True:
-                            mostrar_txt(m_1_2_1)
-                            op_1_2_1 = input("Seleccione una opcion:\n👉   ")
-                            line()
-                            if op_1_2_1 == "1":
-                                print("rock")
-                            elif op_1_2_1 == "2":
-                                print("pop")
-                            elif op_1_2_1 == "3":
-                                print("urbana")
-                            elif op_1_2_1 == "4":
-                                print("electronica")
-                            elif op_1_2_1 == "5":
-                                print("rap")
-                            elif op_1_2_1 == "6": break
-                            else: print ("opcion no valida")
-                    elif op_1_2 == "2":
-                        mostrar_txt(m_1_2_2)
-                    elif op_1_2 == "3":
-                        while True:
-                            mostrar_txt(m_1_2_3)
-                            op_1_2_3 = input("Seleccione una opcion:\n👉   ")
-                            line()
-                            if op_1_2_3 == "1":
-                                print("mostrar_artistas")
-                                mostrar_txt(m_1_2_2)
-                                print ("ver_artistas")
-                                op_1_2_3_1 = input("Seleccione una opcion:\n👉   ")
-                                print("seleccionar_artista")
-                            elif op_1_2_3 == "2":
-                                print("ver_contratos")
-                            elif op_1_2_3 == "3": break
-                            else: print ("opcion no valida")
-                    elif op_1_2 == "4": break
+                    if op_1_2 == "1": leer_genero()
+                    elif op_1_2 == "2": leer_artistas()
+                    elif op_1_2 == "3": break
                     else: print ("opcion no valida")
-            elif op_login == "2":
-                while True:
-                    print("Como vas a Registrarte")
-                    print("1. Como Artista")
-                    print("2. Como Discografica")
-                    print("3. para salir")
-                    Op = pedir_Opc()
-                    if Op == 1:
-                        Sign_Up_FaixApp_Artist(datos, BASE_DE_DATOS)
-                    elif Op == 2:
-                        Sign_Up_FaixApp_Record_Company(datos, BASE_DE_DATOS)
-                    elif Op == 3:
-                        print("Salida Exitosa")
-                        break
-                    else:
-                        print("Opcion no valida")
+            elif op_login == "2": Sign_Up_FaixApp_Artist()
             elif op_login == "3": break
             else: print ("opcion no valida")
     elif op == "3":
-        print("Adios...")
+        clear_screen()
+        diseño_logo()
+        print("A d i o s . . .")
         break
     else: print ("opcion no valida")
