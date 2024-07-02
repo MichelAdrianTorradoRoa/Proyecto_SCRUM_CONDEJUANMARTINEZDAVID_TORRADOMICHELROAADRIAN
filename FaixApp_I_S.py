@@ -124,7 +124,7 @@ def Log_In_FaixApp_Artists_(datos_login: dict):
                 print ("")
                 return datos_login
     print ("")
-    print("El artista no esta registrado")
+    print("El Usuario no esta registrado")
     print ("")
     return datos_login
             

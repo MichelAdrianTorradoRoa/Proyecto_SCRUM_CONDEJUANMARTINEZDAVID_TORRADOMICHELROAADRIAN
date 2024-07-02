@@ -1,16 +1,6 @@
 {
     "canciones": [
         {
-            "nombre": "we are rock you",
-            "artista": "queen",
-            "genero": "Rock",
-            "duracion": "4:20",
-            "lanzamiento": "1992-12-12",
-            "album": "Album",
-            "genero_id": "01",
-            "artista_id": "001"
-        },
-        {
             "nombre": "conde",
             "artista": "haha",
             "genero": "Electronica",
@@ -49,16 +39,6 @@
             "lanzamiento": "r",
             "album": "r",
             "artista_id": "16"
-        },
-        {
-            "nombre": "11",
-            "artista": "1",
-            "genero": "Rock",
-            "genero_id": "01",
-            "duracion": "11",
-            "lanzamiento": "1",
-            "album": "11",
-            "artista_id": "17"
         }
     ],
     "artistas": [
