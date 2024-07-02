@@ -167,6 +167,6 @@ def Log_In_FaixApp_Artists():
 #     print("La Compañia Discografica no esta registrada")
 
 # Código principal
-BASE_DE_DATOS = "JSONfiles\data\login.json"
+BASE_DE_DATOS = "JSONfiles/data/login.json"
 datos_login = cargar_datos_login(BASE_DE_DATOS)
 
