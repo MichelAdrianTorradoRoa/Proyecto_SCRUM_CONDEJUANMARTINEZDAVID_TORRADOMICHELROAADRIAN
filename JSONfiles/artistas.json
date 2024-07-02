@@ -59,6 +59,16 @@
             "lanzamiento": "3 de febrero 2015",
             "album": "album",
             "artista_id": "19"
+        },
+        {
+            "nombre": "moonligth",
+            "artista": "kali uchis",
+            "genero": "Pop",
+            "genero_id": "02",
+            "duracion": "3min",
+            "lanzamiento": "3 de febrero 2009",
+            "album": "telepatia",
+            "artista_id": "20"
         }
     ],
     "artistas": [
@@ -86,6 +96,16 @@
             "nombre": "kiss",
             "descripcion": "kiss (estilizado kiss) fue una banda estadounidense de rock formada en nueva york en enero de 1973 por el bajista gene simmons, el guitarrista paul stanley y el bater\u00eda peter criss, a los que m\u00e1s tarde se unir\u00eda el guitarrista ace frehley.",
             "contacto": "@kiss, kiss"
+        },
+        {
+            "nombre": "michel",
+            "descripcion": "es un cantante de musica pop",
+            "contacto": "3293746283 michel@gmail.com"
+        },
+        {
+            "nombre": "leonardo",
+            "descripcion": "es un cantante de musica rock",
+            "contacto": "3943284867"
         }
     ]
 }
