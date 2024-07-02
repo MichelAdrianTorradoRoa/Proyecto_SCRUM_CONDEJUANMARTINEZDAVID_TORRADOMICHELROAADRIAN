@@ -39,12 +39,22 @@
             "lanzamiento": "r",
             "album": "r",
             "artista_id": "16"
+        },
+        {
+            "nombre": "i was made for lovin you",
+            "artista": "kiss",
+            "genero": "Rock",
+            "genero_id": "01",
+            "duracion": "4min",
+            "lanzamiento": "1979",
+            "album": "dynasty",
+            "artista_id": "18"
         }
     ],
     "artistas": [
         {
             "nombre": "perex",
-            "descripcion": "hola conde",
+            "descripcion": "Un artista no reconocido, que esta empezando en el nuevo mundo",
             "contacto": "kkkkk@gmail.com"
         },
         {
@@ -56,6 +66,16 @@
             "nombre": "adele",
             "descripcion": "es una cantante de musica",
             "contacto": "adele@gmail.com"
+        },
+        {
+            "nombre": "juanes",
+            "descripcion": "juan esteban aristizabal velasquez (medellin, 9 de agosto de 1972), conocido por su nombre artistico juanes, es un cantante, compositor, musico y dise\u00c3\u00b1ador industrial colombiano de pop latino y rock en espa\u00c3\u00b1ol que combina diversos ritmos musicales.",
+            "contacto": "@juanes, juanes"
+        },
+        {
+            "nombre": "kiss",
+            "descripcion": "kiss (estilizado kiss) fue una banda estadounidense de rock formada en nueva york en enero de 1973 por el bajista gene simmons, el guitarrista paul stanley y el bater\u00eda peter criss, a los que m\u00e1s tarde se unir\u00eda el guitarrista ace frehley.",
+            "contacto": "@kiss, kiss"
         }
     ]
 }
