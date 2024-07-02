@@ -1,4 +1,6 @@
         D i s c o g r a f i a
 1 . G e n e r o s
 2 . A r t i s t a s
-3 . R e g r e s a r ↩️ 
+3 . A r t i s t a  E s p e c i f i c o
+4 . A l b u m
+5 . R e g r e s a r ↩️ 

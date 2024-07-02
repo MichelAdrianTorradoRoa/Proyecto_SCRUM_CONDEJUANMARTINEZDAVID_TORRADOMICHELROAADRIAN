@@ -1,23 +1,23 @@
 {
     "canciones": [
         {
-            "nombre": "conde",
-            "artista": "haha",
-            "genero": "Electronica",
-            "genero_id": "04",
-            "duracion": "3min",
-            "lanzamiento": "2 de november",
-            "album": "coca",
-            "artista_id": "11"
-        },
-        {
-            "nombre": "waanna",
-            "artista": "asd",
+            "nombre": "ma\u00f1ana ser\u00e1 bonito",
+            "artista": "karol g",
             "genero": "Urbana",
             "genero_id": "03",
-            "duracion": "2min",
-            "lanzamiento": "234456",
-            "album": "fe",
+            "duracion": "3min",
+            "lanzamiento": "2023",
+            "album": "ma\u00f1ana ser\u00e1 bonito",
+            "artista_id": "01"
+        },
+        {
+            "nombre": "i wanna be yours",
+            "artista": "arctic monkeys",
+            "genero": "Rock",
+            "genero_id": "01",
+            "duracion": "3min",
+            "lanzamiento": "2015",
+            "album": "i wanna",
             "artista_id": "13"
         },
         {
@@ -26,18 +26,68 @@
             "genero": "Pop",
             "genero_id": "02",
             "duracion": "3min",
-            "lanzamiento": "34-45-56",
-            "album": "jirafa",
+            "lanzamiento": "2011",
+            "album": "Mastermix Classic Cuts, Volume 140: Mode",
             "artista_id": "15"
         },
         {
-            "nombre": "ere",
+            "nombre": "set fire to the rain",
             "artista": "adele",
-            "genero": "Urbana",
-            "genero_id": "03",
-            "duracion": "fr",
-            "lanzamiento": "r",
-            "album": "r",
+            "genero": "Pop",
+            "genero_id": "02",
+            "duracion": "3min",
+            "lanzamiento": "2011",
+            "album": "Mastermix Classic Cuts, Volume 140: Mode",
+            "artista_id": "15"
+        },
+        {
+            "nombre": "skyfall",
+            "artista": "adele",
+            "genero": "Pop",
+            "genero_id": "02",
+            "duracion": "3min",
+            "lanzamiento": "2011",
+            "album": "Mastermix Classic Cuts, Volume 140: Mode",
+            "artista_id": "15"
+        },
+        {
+            "nombre": "maroon",
+            "artista": "taylor swift",
+            "genero": "Pop",
+            "genero_id": "02",
+            "duracion": "3min",
+            "lanzamiento": "2022",
+            "album": "midnights",
+            "artista_id": "04"
+        },
+        {
+            "nombre": "vigilante shit",
+            "artista": "taylor swift",
+            "genero": "Pop",
+            "genero_id": "02",
+            "duracion": "4min",
+            "lanzamiento": "2022",
+            "album": "midnights",
+            "artista_id": "04"
+        },
+        {
+            "nombre": "snow on the beach",
+            "artista": "taylor swift",
+            "genero": "Pop",
+            "genero_id": "02",
+            "duracion": "4min",
+            "lanzamiento": "2022",
+            "album": "midnights",
+            "artista_id": "04"
+        },
+        {
+            "nombre": "someone like you",
+            "artista": "adele",
+            "genero": "Pop",
+            "genero_id": "02",
+            "duracion": "4min",
+            "lanzamiento": "2021",
+            "album": "Someone Like You",
             "artista_id": "16"
         },
         {
@@ -55,10 +105,140 @@
             "artista": "zion y lenox",
             "genero": "Urbana",
             "genero_id": "03",
-            "duracion": "3min\u00e7",
+            "duracion": "3min",
             "lanzamiento": "3 de febrero 2015",
             "album": "album",
             "artista_id": "19"
+        },
+        {
+            "nombre": "colorin colorado",
+            "artista": "zion y lenox",
+            "genero": "Urbana",
+            "genero_id": "03",
+            "duracion": "3min",
+            "lanzamiento": "3 de febrero 2015",
+            "album": "album",
+            "artista_id": "19"
+        },
+        {
+            "nombre": "la botella",
+            "artista": "zion y lenox",
+            "genero": "Urbana",
+            "genero_id": "03",
+            "duracion": "3min",
+            "lanzamiento": "3 de febrero 2015",
+            "album": "album",
+            "artista_id": "19"
+        },
+        {
+            "nombre": "tienes razon",
+            "artista": "zion y lenox",
+            "genero": "Urbana",
+            "genero_id": "03",
+            "duracion": "3min",
+            "lanzamiento": "3 de febrero 2015",
+            "album": "album",
+            "artista_id": "19"
+        },
+        {
+            "nombre": "get wild",
+            "artista": "zion y lenox",
+            "genero": "Urbana",
+            "genero_id": "03",
+            "duracion": "3min",
+            "lanzamiento": "3 de febrero 2015",
+            "album": "album",
+            "artista_id": "19"
+        },
+        {
+            "nombre": "crazy train",
+            "artista": "ozzy osbourne",
+            "genero": "Rock",
+            "genero_id": "01",
+            "duracion": "4min",
+            "lanzamiento": "1980",
+            "album": "Blizzard of Ozz",
+            "artista_id": "21"
+        },
+        {
+            "nombre": "orphans",
+            "artista": "aphex Twin",
+            "genero": "Electronica",
+            "genero_id": "04",
+            "duracion": "4min",
+            "lanzamiento": "2017",
+            "album": "afx",
+            "artista_id": "22"
+        },
+        {
+            "nombre": "antes que el mundo se acabe",
+            "artista": "residente",
+            "genero": "Rap",
+            "genero_id": "05",
+            "duracion": "4min",
+            "lanzamiento": "2020",
+            "album": "antes que el mundo se acabe",
+            "artista_id": "22"
+        },
+        {
+            "nombre": "coco chanel",
+            "artista": "eladio Carrion",
+            "genero": "Rap",
+            "genero_id": "05",
+            "duracion": "4min",
+            "lanzamiento": "2023",
+            "album": "coco chanel",
+            "artista_id": "23"
+        },
+        {
+            "nombre": "without me",
+            "artista": "eminem",
+            "genero": "Rap",
+            "genero_id": "05",
+            "duracion": "4min",
+            "lanzamiento": "2002",
+            "album": "the eminem show",
+            "artista_id": "24"
+        },
+        {
+            "nombre": "business men",
+            "artista": "eminem",
+            "genero": "Rap",
+            "genero_id": "05",
+            "duracion": "4min",
+            "lanzamiento": "2002",
+            "album": "the eminem show",
+            "artista_id": "25"
+        },
+        {
+            "nombre": "soldier",
+            "artista": "eminem",
+            "genero": "Rap",
+            "genero_id": "05",
+            "duracion": "4min",
+            "lanzamiento": "2002",
+            "album": "the eminem show",
+            "artista_id": "26"
+        },
+        {
+            "nombre": "the kiss",
+            "artista": "eminem",
+            "genero": "Rap",
+            "genero_id": "05",
+            "duracion": "4min",
+            "lanzamiento": "2002",
+            "album": "the eminem show",
+            "artista_id": "27"
+        },
+        {
+            "nombre": "square dance",
+            "artista": "eminem",
+            "genero": "Rap",
+            "genero_id": "05",
+            "duracion": "4min",
+            "lanzamiento": "2002",
+            "album": "the eminem show",
+            "artista_id": "27"
         },
         {
             "nombre": "moonligth",
@@ -68,24 +248,74 @@
             "duracion": "3min",
             "lanzamiento": "3 de febrero 2009",
             "album": "telepatia",
-            "artista_id": "20"
+            "artista_id": "30"
+        },
+        {
+            "nombre": "bulls in the bronxs",
+            "artista": "juan jose",
+            "genero": "Rock",
+            "genero_id": "01",
+            "duracion": "3min",
+            "lanzamiento": "2016",
+            "album": "king for ade",
+            "artista_id": "21"
         }
     ],
     "artistas": [
         {
-            "nombre": "perex",
-            "descripcion": "Un artista no reconocido, que esta empezando en el nuevo mundo",
-            "contacto": "kkkkk@gmail.com"
+            "nombre": "aphex Twin",
+            "descripcion": "Richard David James, m\u00e1s conocido como Aphex Twin, es un DJ y productor irland\u00e9s nacionalizado brit\u00e1nico. Fue descrito por el peri\u00f3dico The Guardian en 2001 como \u00abla figura m\u00e1s innovadora e influyente de la m\u00fasica electr\u00f3nica contempor\u00e1nea\u00bb",
+            "contacto": "@AphexTwin, 3185673412"
         },
         {
-            "nombre": "hakuna",
-            "descripcion": "es un top de nuevo mundo",
-            "contacto": "guuue"
+            "nombre": "kali uchis",
+            "descripcion": "Kali Uchis altera la comodidad de nuestras ideas preestablecidas: es una mujer empoderada, poderosa e independiente. Una artista completa que escribe, compone y produce su m\u00fasica, piensa e integra lo visual como parte de su performance art\u00edstica, donde su apariencia corporal y vestimenta son una extensi\u00f3n de su arte.",
+            "contacto": "@kaliuchis, 3185763412"
+        },
+        {
+            "nombre": "ozzy Osbourne",
+            "descripcion": "John Michael Osbourne (3 de diciembre de 1948, Birmingham), m\u00e1s conocido dentro del mundo art\u00edstico como Ozzy Osbourne, es un afamado m\u00fasico y compositor brit\u00e1nico, salt\u00f3 al estrellato por ser el vocalista de la banda de rock Black Sabbath, lanzando posteriormente su exitosa carrera en solitario en 1977.",
+            "contacto": "3155378922, @OzzyOsbourne"
+        },
+        {
+            "nombre": "taylor swift ",
+            "descripcion": "Taylor Alison Swift (West Reading, Pensilvania, 13 de diciembre de 1989), m\u00e1s conocida como Taylor Swift, es una cantante, compositora y actriz estadounidense y una de las artistas con mayores ventas discogr\u00e1ficas del mundo, m\u00e1s de 114 millones de \u00e1lbumes en formato f\u00edsico, adem\u00e1s de cientos de millones de descargas",
+            "contacto": "3151238922, @taylorswift"
+        },
+        {
+            "nombre": "arctic monkeys",
+            "descripcion": "Arctic Monkeys es la primera banda de un sello independiente que ha debutado en el n\u00famero uno con sus cinco primeros \u00e1lbumes. Ha ganado siete Brit Awards, un premio Mercury, un premio Ivor Novello y 20 Premios NME. Dos de sus \u00e1lbumes est\u00e1n incluidos en la lista de Rolling Stone de los 500 mejores discos de la historia.",
+            "contacto": "3155373422, @ArcticMonkeys"
+        },
+        {
+            "nombre": "karol g",
+            "descripcion": "Karol G naci\u00f3 y se crio en la colombiana ciudad de Medell\u00edn, siendo hija del m\u00fasico Gillermo Giraldo su inter\u00e9s por la m\u00fasica empez\u00f3 desde muy temprano y en 2005, apenas entrada en la adolescencia, particip\u00f3 en Factor X. A ra\u00edz de ello logr\u00f3 su primer contrato discogr\u00e1fico.",
+            "contacto": "3155371232, @karolg"
+        },
+        {
+            "nombre": "residente",
+            "descripcion": "Ren\u00e9 P\u00e9rez Joglar (San Juan, Puerto Rico; 23 de febrero de 1978), conocido art\u00edsticamente como Residente, es un cantante, compositor, productor discogr\u00e1fico y activista puertorrique\u00f1o. Su m\u00fasica alberga principalmente estilos como el hiphop, el reguet\u00f3n o de m\u00fasica del mundo. El contenido de sus letras com\u00fanmente est\u00e1n relacionados con temas sociales, pol\u00edticos o contingentes.1\u200b Tambi\u00e9n es conocido por sus m\u00faltiples tiraeras, en que ataca verbalmente a otros artistas con quienes ha generado conflictos o rivalidades.",
+            "contacto": "3155388922, @Residente"
+        },
+        {
+            "nombre": "eladio carrion",
+            "descripcion": "Profesionalmente, fue primero deportista de \u00e9lite, despu\u00e9s estudiante de Biolog\u00eda y, por \u00faltimo, influencer. Antes de aterrizar en el mundo de la m\u00fasica, Carri\u00f3n cuenta que estuvo cualificado para ir a los Juegos Ol\u00edmpicos por sus habilidades como nadador. \u201cDe ni\u00f1o era muy hiperactivo as\u00ed que el deporte me ayud\u00f3.",
+            "contacto": "3155388922, @Residente"
         },
         {
             "nombre": "adele",
-            "descripcion": "es una cantante de musica",
-            "contacto": "adele@gmail.com"
+            "descripcion": "Adele es una cantante y compositora brit\u00e1nica, ganadora de m\u00faltiples premios Grammy, un premio Oscar y varios Brit Awards. Es reconocida por sus emocionales canciones y \u00e1lbumes que hablan de rupturas y de experiencias personales. Es tambi\u00e9n una destacada compositora, que ha escrito temas para otros cantantes como Sia.",
+            "contacto": "adele@gmail.com, 3214567381"
+        },
+        {
+            "nombre": "eminem",
+            "descripcion": "Marshall Bruce Mathers III (17 de octubre de 1972, St. Joseph, Missouri), m\u00e1s conocido por su nombre art\u00edstico, Eminem, es un cantante y compositor norteamericano, una de las principales estrellas de la historia del rap. Eminem naci\u00f3 en una familia desestructurada.",
+            "contacto": "3214347381, @eminem"
+        },
+        {
+            "nombre": "zion y lenox",
+            "descripcion": "Zion y Lennox tomaron bases, melod\u00edas, costumbres del dancehall, reggae y raggamuffin, para poco a poco irlas mezclando con el reggaet\u00f3n y conseguir un sonido y firma \u00fanicos dentro del g\u00e9nero. Cualquier canci\u00f3n de este d\u00fao, nacidos en Carolina, Puerto Rico, es identificable a leguas.",
+            "contacto": "3214347123, @zionylenox"
         },
         {
             "nombre": "juanes",
@@ -94,7 +324,7 @@
         },
         {
             "nombre": "kiss",
-            "descripcion": "kiss (estilizado kiss) fue una banda estadounidense de rock formada en nueva york en enero de 1973 por el bajista gene simmons, el guitarrista paul stanley y el bater\u00eda peter criss, a los que m\u00e1s tarde se unir\u00eda el guitarrista ace frehley.",
+            "descripcion": "kiss (estilizado kiss) es una banda estadounidense de rock formada en nueva york en enero de 1973 por el bajista gene simmons, el guitarrista paul stanley y el bater\u00eda peter criss, a los que m\u00e1s tarde se unir\u00eda el guitarrista ace frehley.",
             "contacto": "@kiss, kiss"
         },
         {

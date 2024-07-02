@@ -1,10 +1,14 @@
 from artist.datos import *
 from artist.funciones_secundarias import very,clear_screen, print_, es, linen,linea,line
 from artist.CRUD_funciones import contador_id
+from artist.diseños import *
+
 #CREAR
 
 def crear_song(datos: dict):
     canciones={}
+    clear_screen()
+    diseño_logo_artista()
     canciones["nombre"]=input("Ingrese el nombre de la cancion: ").lower()
     canciones["artista"]=input("Ingrese el nombre del artista: ").lower()
     while True:
@@ -53,6 +57,8 @@ def crear_cancion():
 
 #ELIMINAR
 def eliminar_song(datos: dict):
+    clear_screen()
+    diseño_logo_artista()
     nombre =input("Ingrese el nombre de la cancion: ").lower()
     for i in range(len(datos["canciones"])):
         if datos["canciones"][i]["nombre"] == nombre:
@@ -79,6 +85,8 @@ def eliminar_cancion():
 
 #LEER
 def leer_song(datos: dict):
+    clear_screen()
+    diseño_logo_artista()
     nombre =input("Ingrese el nombre de la cancion: ").lower()    
     for i in range(len(datos["canciones"])):
         if datos["canciones"][i]["nombre"] == nombre:
@@ -133,6 +141,8 @@ def leer_cancion():
 
 #ACTUALIZAR
 def actualizar_song(datos: dict):
+    clear_screen()
+    diseño_logo_artista()
     nombre =input("Ingrese el nombre de la cancion: ").lower()    
     for i in range(len(datos["canciones"])):
         if datos["canciones"][i]["nombre"] == nombre:

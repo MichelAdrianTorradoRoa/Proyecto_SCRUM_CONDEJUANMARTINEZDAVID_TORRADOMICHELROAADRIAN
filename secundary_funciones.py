@@ -25,11 +25,6 @@ def reportar_error_a_txt(excepcion):
         f.write(mensaje_error + '\n')
 
 #def doc_existe(usuarios,datos): 
-def opcion_no_valida():
-    ruta_errores = os.path.join("kaiosamapp/txt/errores.txt")
-    with open(ruta_errores, 'a') as f:
-        mensaje_error = f"{fecha}: Opcion de menu no valida" 
-        f.write(mensaje_error + '\n')
 #opcion_no_valida()
 
 def very():
@@ -44,7 +39,7 @@ def very():
         elif continuar == "2": 
             clear_screen()
             return "2"
-        else: opcion_no_valida()
+        else: print_ ("Opcion no valida")
 
 
 def print_(*args, **kwargs):

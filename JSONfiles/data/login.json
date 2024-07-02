@@ -2,39 +2,43 @@
     "D_Artistas": [
         {
             "Correo": "martinescarloskhd251@gmail.com",
-            "Contrasena": "1454145145"
+            "Contrasena": "12345"
+        },
+        {
+            "Correo": "camilo@gmail.com",
+            "Contrasena": "12345"
+        },
+        {
+            "Correo": "adele@gmail.com",
+            "Contrasena": "12345"
+        },
+        {
+            "Correo": "zion@gmail.com",
+            "Contrasena": "12345"
+        },
+        {
+            "Correo": "eladiocarrion@gmail.com",
+            "Contrasena": "12345"
+        },
+        {
+            "Correo": "ozzy@gmail.com",
+            "Contrasena": "12345"
+        },
+        {
+            "Correo": "karolg@gmail.com",
+            "Contrasena": "12345"
         },
         {
             "Correo": "josegdtraksion@gmail.com",
-            "Contrasena": "181617181617"
+            "Contrasena": "12345"
         },
         {
-            "Correo": "gm",
-            "Contrasena": "we"
+            "Correo": "deibi@gmail.com",
+            "Contrasena": "12345"
         },
         {
-            "Correo": "gm",
-            "Contrasena": "gm"
-        },
-        {
-            "Correo": "1",
-            "Contrasena": "1"
-        },
-        {
-            "Correo": "12",
-            "Contrasena": "12"
-        },
-        {
-            "Correo": "1",
-            "Contrasena": "1"
-        },
-        {
-            "Correo": "de",
-            "Contrasena": "de"
-        },
-        {
-            "Correo": "2",
-            "Contrasena": "2"
+            "Correo": "johan@gmail.com",
+            "Contrasena": "123"
         }
     ]
 }

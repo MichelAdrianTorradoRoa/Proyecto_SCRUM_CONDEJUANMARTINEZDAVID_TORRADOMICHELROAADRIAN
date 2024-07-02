@@ -1,11 +1,14 @@
 from artist.datos import *
 from artist.funciones_secundarias import very,clear_screen, print_, es, linen,linea,line
 from artist.CRUD_funciones import contador_id
+from artist.diseños import *
 from txt import *
 #CREAR
 
 def crear_informacion(datos: dict):
     artistas={}
+    clear_screen()
+    diseño_logo_discografia()
     artistas["nombre"]=input("Ingrese el nombre del artista: ").lower()
     artistas["descripcion"]=input("Ingrese una breve descripcion del artista: ").lower()
     artistas["contacto"]=input("Ingrese la info de contacto del artista: ").lower()
@@ -27,6 +30,8 @@ def crear_info():
 
 #ELIMINAR
 def eliminar_informacion(datos: dict):
+    clear_screen()
+    diseño_logo_discografia()
     nombre =input("Ingrese el nombre del artista: ").lower()
     for i in range(len(datos["artistas"])):
         if datos["artistas"][i]["nombre"] == nombre:
@@ -53,6 +58,8 @@ def eliminar_info():
 
 #LEER
 def leer_informacion(datos: dict):
+    clear_screen()
+    diseño_logo_discografia()
     nombre =input("Ingrese el nombre del artista: ").lower()    
     for i in range(len(datos["artistas"])):
         if datos["artistas"][i]["nombre"] == nombre:
@@ -96,7 +103,8 @@ def leer_info():
         else: clear_screen()
         
 def leer_artist(datos: dict):
-    print_("A r t i s t a s")
+    clear_screen()
+    diseño_logo_discografia()
     for sn in range(len(datos["artistas"])):
         print_(datos["artistas"][sn]["nombre"].capitalize())
     for i in range(len(datos["artistas"])):
@@ -137,6 +145,8 @@ def leer_artistas():
         
 def leer_gender(datos: dict):  
     while True:
+        clear_screen()
+        diseño_logo_discografia()
         mostrar_txt(m_1_2_1)
         op = input("Seleccione una opcion:\n👉   ")
         line()
@@ -373,10 +383,111 @@ def leer_genero():
         else: clear_screen()
         
 # leer_info()
-
+def leer_alb(datos: dict):
+    clear_screen()
+    diseño_logo_discografia()
+    album = input("Ingrese el nombre del Album: ")
+    line()
+    print_("A l b u m")
+    for sn in range(len(datos["canciones"])):
+        if datos["canciones"][sn]["album"] == album:
+            print_ (datos["canciones"][sn]["nombre"])
+    for i in range(len(datos["canciones"])):
+        if datos["canciones"][i]["album"] == album:
+            line()
+            es()
+            linea()
+            linea()
+            es()
+            line()
+            print_("N o m b r e")
+            print_(datos["canciones"][i]["nombre"].capitalize())
+            line()
+            es()
+            line()
+            print_("A r t i s t a")
+            print_(datos["canciones"][i]["artista"].capitalize())
+            line()
+            es()
+            line()
+            print_("G e n e r o")
+            print_(datos["canciones"][i]["genero"])
+            line()
+            es()
+            line()
+            print_("D u r a c i o n")
+            print_(datos["canciones"][i]["duracion"])
+            line()
+            es()
+            line()
+            print_("L a n z a m i e n t o")
+            print_(datos["canciones"][i]["lanzamiento"])
+            line()
+            es()
+            linea()
+    return datos 
+        
+def leer_album():
+    while True:
+        datos = cargar_datos(RUTA_BASE_DE_DATOS_ARTISTAS)
+        datos = leer_alb(datos)
+        guardar_datos(datos, RUTA_BASE_DE_DATOS_ARTISTAS)
+        continuar = very()
+        if continuar == "2": break
+        else: clear_screen()
+        
+def leer_art(datos: dict):
+    clear_screen()
+    diseño_logo_discografia()
+    artista = input("Ingrese el nombre del Artista: ")
+    line()
+    print_("C a n c i o n e s")
+    for sn in range(len(datos["canciones"])):
+        if datos["canciones"][sn]["artista"] == artista:
+            print_ (datos["canciones"][sn]["nombre"])
+    for i in range(len(datos["canciones"])):
+        if datos["canciones"][i]["artista"] == artista:
+            line()
+            es()
+            linea()
+            linea()
+            es()
+            line()
+            print_("N o m b r e")
+            print_(datos["canciones"][i]["nombre"].capitalize())
+            line()
+            es()
+            line()
+            print_("G e n e r o")
+            print_(datos["canciones"][i]["genero"])
+            line()
+            es()
+            line()
+            print_("D u r a c i o n")
+            print_(datos["canciones"][i]["duracion"])
+            line()
+            es()
+            line()
+            print_("L a n z a m i e n t o")
+            print_(datos["canciones"][i]["lanzamiento"])
+            line()
+            es()
+            linea()
+    return datos 
+        
+def leer_canciones_artista():
+    while True:
+        datos = cargar_datos(RUTA_BASE_DE_DATOS_ARTISTAS)
+        datos = leer_art(datos)
+        guardar_datos(datos, RUTA_BASE_DE_DATOS_ARTISTAS)
+        continuar = very()
+        if continuar == "2": break
+        else: clear_screen()
 
 #ACTUALIZAR
 def actualizar_informacion(datos: dict):
+    clear_screen()
+    diseño_logo_discografia()
     nombre =input("Ingrese el nombre del artista: ").lower()    
     for i in range(len(datos["artistas"])):
         if datos["artistas"][i]["nombre"] == nombre:
