@@ -29,7 +29,7 @@ Juan David Conde Martinez(https://github.com/juanconde025)
 Jose David Tarazona Diaz(https://github.com/Josedavidtarazonadiaz)
 David Leonardo Gonazlez Gomez(https://github.com/DLeonardoG)
 Haider Steban Jerez Vergel(https://github.com/haiderjerez)
-Nicolas Ruiz Giraldo(https://github.com/NicolasFue05)
+Nicolas Javir Fuentes(https://github.com/NicolasFue05)
 Michel Adrian Torrado Roa(https://github.com/MichelAdrianTorradoRoa)
 
 
