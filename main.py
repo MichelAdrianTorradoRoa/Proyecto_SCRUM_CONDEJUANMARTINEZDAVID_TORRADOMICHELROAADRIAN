@@ -132,7 +132,8 @@ while True:
                     elif op_1_2 == "2": leer_artistas()
                     elif op_1_2 == "3": leer_canciones_artista()
                     elif op_1_2 == "4": leer_album()
-                    elif op_1_2 == "5": break
+                    elif op_1_2 == "5": crear_contrato()
+                    elif op_1_2 == "6": break
                     else: print ("opcion no valida")
             elif op_login == "2": 
                 clear_screen()

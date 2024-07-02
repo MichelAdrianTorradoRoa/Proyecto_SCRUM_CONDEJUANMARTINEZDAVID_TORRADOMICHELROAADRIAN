@@ -3,4 +3,5 @@
 2 . A r t i s t a s
 3 . A r t i s t a  E s p e c i f i c o
 4 . A l b u m
-5 . R e g r e s a r ↩️ 
+5 . C o n t r a t o
+6 . R e g r e s a r ↩️ 

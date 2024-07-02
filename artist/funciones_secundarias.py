@@ -11,6 +11,7 @@ fecha = time_now()
 
 def datetime_to_json(dt):
     return dt.strftime('%Y-%m-%d %H:%M:%S')
+
 _fecha_ = datetime_to_json(fecha)
 
 def clear_screen():

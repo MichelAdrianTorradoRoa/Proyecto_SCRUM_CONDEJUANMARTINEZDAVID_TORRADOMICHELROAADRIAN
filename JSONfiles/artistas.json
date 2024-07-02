@@ -337,5 +337,34 @@
             "descripcion": "es un cantante de musica rock",
             "contacto": "3943284867"
         }
+    ],
+    "contratos": [
+        {
+            "nombre_artista": "aphex Twin",
+            "nombre_discografica": "aphex Twin",
+            "lugar": "Madrid",
+            "fecha": "03/07/2024",
+            "documento_artista": "1097988223",
+            "documento_discografica": "1097988223",
+            "contacto": "@AphexTwin, 3185673412"
+        },
+        {
+            "nombre_artista": "adele",
+            "nombre_discografica": "max",
+            "lugar": "madrid",
+            "fecha": "2024-07-03 13:00:41",
+            "documento_artista": "12345",
+            "documento_discografica": "12345",
+            "contacto": "adele@gmail.com, 3214567381"
+        },
+        {
+            "nombre_artista": "adele",
+            "nombre_discografica": "hux",
+            "lugar": "jamaica",
+            "fecha": "2024-07-03 13:03:13",
+            "documento_artista": "123",
+            "documento_discografica": "123",
+            "contacto": "adele@gmail.com, 3214567381"
+        }
     ]
 }

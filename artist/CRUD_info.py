@@ -1,5 +1,5 @@
 from artist.datos import *
-from artist.funciones_secundarias import very,clear_screen, print_, es, linen,linea,line
+from artist.funciones_secundarias import *
 from artist.CRUD_funciones import contador_id
 from artist.diseños import *
 from txt import *
@@ -21,6 +21,49 @@ def crear_info():
     while True:
         datos = cargar_datos(RUTA_BASE_DE_DATOS_ARTISTAS)
         datos = crear_informacion(datos)
+        guardar_datos(datos, RUTA_BASE_DE_DATOS_ARTISTAS)
+        continuar = very()
+        if continuar == "2": break
+        else: clear_screen()
+def crear_cont(datos: dict):
+    clear_screen()
+    diseño_logo_discografia()
+    artista = input("Ingrese el nombre del Artista: ").lower()
+    for sn in range(len(datos["artistas"])):
+        if datos["artistas"][sn]["nombre"] == artista:
+            contratos={}
+            contratos["nombre_artista"]=datos["artistas"][sn]["nombre"]
+            contratos["nombre_discografica"]=input("Ingrese el nombre de la discografica: ").lower()
+            contratos["lugar"]=input("Ingrese el lugar del contrato: ").lower()
+            contratos["fecha"]= datetime_to_json(fecha)
+            contratos["documento_artista"]=input("Ingrese el documento del artista: ").lower()
+            contratos["documento_discografica"]=input("Ingrese el documento de la discografica: ").lower()
+            contratos["contacto"]=datos["artistas"][sn]["contacto"]
+            datos["contratos"].append(contratos)
+            print("")
+            print_ ("CONTRATO DISCOGRÁFICO")
+            print ("")
+            print_(f"En ",contratos["lugar"]," a ",contratos["fecha"])
+            print ("")
+            print_("REUNIDOS")
+            print ("")
+            print_("De una Parte, como ARTISTA,")
+            print (f"El ARTISTA ",contratos["nombre_artista"].capitalize(),", con el documento ",contratos["documento_artista"]," y con domicilio en ",contratos["lugar"].capitalize()," actuando en nombre y representación propia.")
+            print ("")
+            print ("De otra Parte, como COMPAÑÍA DISCOGRÁFICA,")
+            print (f"La COMPAÑÍA DISCOGRÁFICA ",contratos["nombre_discografica"].capitalize()," con el documento ",contratos["documento_discografica"]," y con domicilio en ",contratos["lugar"].capitalize()," actuando en nombre y representación propia.") 
+            print("")
+            print ("Y, que a continuación, serán referidas, individualmente como Parte, COMPAÑÍA DISCOGRÁFICA, ARTISTA, o, de forma conjunta como Partes...")
+            print("")
+            print_("...")
+            return datos
+    print_(f"El artista ",artista," no esta resgistrado...")
+    return datos
+
+def crear_contrato():
+    while True:
+        datos = cargar_datos(RUTA_BASE_DE_DATOS_ARTISTAS)
+        datos = crear_cont(datos)
         guardar_datos(datos, RUTA_BASE_DE_DATOS_ARTISTAS)
         continuar = very()
         if continuar == "2": break
