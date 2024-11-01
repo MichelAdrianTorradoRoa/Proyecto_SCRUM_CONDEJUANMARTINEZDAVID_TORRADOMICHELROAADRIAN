@@ -1,4 +1,4 @@
-# FAIXAPP
+# FAIXAPP  🎶
 
 FAIXAPP es una aplicación desarrollada en Python que facilita la interacción entre artistas y discográficas. Permite a los artistas gestionar y promover su música, mientras que las discográficas pueden descubrir talentos y revisar los repertorios.
 
@@ -6,14 +6,37 @@ TABLA DE CONTENIDOS
 Funcionalidades Principales
 
 ## Tabla de contenidos 📋
+
 | Indice | Titulo  |
 |--|--|
 | 1 | [Requerimientos](#requerimientos) |
-| 2 | [Estructura del Proyecto](#estructura-del-proyecto) |
-| 2 | [Instalación](#tinstalacion) |
-| 8 | [Contacto](#contacto) |
-| 9 | [Autores](#autores) |
+| 3 | [Instalación](#tinstalacion) |
+| 3 | [Funcionalidades Principales](#funcionalidades-principales) |
+| 4 | [Contacto](#contacto) |
+| 5 | [Autores](#autores) |
 
+## Requerimientos 📦
+
+Para ejecutar FAIXAPP, necesitarás tener instalados los siguientes elementos:
+
+Python 3.6 o superior
+Pip (gestor de paquetes de Python)
+
+## Instalación ⚙️
+
+Para instalar FAIXAPP, sigue estos pasos en la terminal:
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/MichelAdrianTorradoRoa/Proyecto_SCRUM_CONDEJUANMARTINEZDAVID_TORRADOMICHELROAADRIAN.git
+   cd faixapp
+   ```
+2. Ejecuta el proyecto:
+   ```bash
+   python3 main.py
+   ```
+
+## Funcionalidades Principales 🚀
 
 *Autenticación y Roles:*
 
