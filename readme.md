@@ -2,9 +2,6 @@
 
 FAIXAPP es una aplicación desarrollada en Python que facilita la interacción entre artistas y discográficas. Permite a los artistas gestionar y promover su música, mientras que las discográficas pueden descubrir talentos y revisar los repertorios.
 
-TABLA DE CONTENIDOS
-Funcionalidades Principales
-
 ## Tabla de contenidos 📋
 
 | Indice | Titulo  |
@@ -58,7 +55,7 @@ Para instalar FAIXAPP, sigue estos pasos en la terminal:
 - Visualización de perfiles detallados.
 
 
-## Contactos 📱
+## Contacto 📱
 
 Para preguntas o contribuciones, puedes contactarnos en:
 
